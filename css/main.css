@@ -1,0 +1,15 @@
+.typing-text {
+    font-size: 4em;
+    font-weight: bolder;
+}
+#introSec {
+    padding: 15px;
+    text-align: center;
+}
+#hdr-ssm {
+    padding: 0;
+    margin: 0;
+}
+#hdr-ssm li {
+    display: inline-block; padding-right: 10px;
+}
