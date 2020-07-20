@@ -1,7 +1,21 @@
+.navbar {
+    font-weight: bold;
+}
+/*this is the "intro section" for the remaining pages */
+.first-sec {
+    padding: 25px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+/*this is for all sections/objects/etc following media objects prior to the intro sections. */
+.leading-sec {
+    margin: 20px 0px 20px 0px;
+}
 .typing-text {
     font-size: 4em;
     font-weight: bolder;
 }
+/*this is only for the index.html page */
 #introSec {
     padding: 10px;
     text-align: center;
@@ -11,5 +25,77 @@
     margin: 0;
 }
 #hdr-ssm li {
-    display: inline-block; padding-right: 10px;
+    display: inline-block; 
+    padding-right: 10px;
 }
+#work-search {
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+}
+.sec-hr{
+    max-width: 400px;
+}
+ /* Style the form */
+ #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  } 
+  .footer {
+      text-align: center;
+      margin-top:25px;
+  }
+  .sub-text-span {
+    font-size: .6em;
+    color: lightblue;
+    font-weight: lighter;
+ 
+  }
+  .col-lg {
+    margin-bottom: 25px;
+  }
